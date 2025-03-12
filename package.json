@@ -1,0 +1,31 @@
+{
+  "name": "roboflowP5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/p5.roboflowP5.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
+    "build": "cross-env NODE_ENV=production webpack --config config/webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "axios": "^1.8.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "cross-env": "^7.0.3",
+    "dat.gui": "^0.7.9",
+    "html-webpack-plugin": "^5.5.3",
+    "inferencejs": "^1.0.16",
+    "osc-js": "^2.4.0",
+    "p5": "^1.7.0",
+    "util": "^0.12.5"
+  }
+}
